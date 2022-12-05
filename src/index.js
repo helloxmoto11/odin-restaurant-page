@@ -1,7 +1,8 @@
 import './style.css';
-
+import Header from './header.js';
 
 function content() {
+
     const content = document.createElement('div');
     content.classList.add('content')
 
@@ -9,12 +10,16 @@ function content() {
 
     const scrim = document.createElement('div');
     scrim.classList.add('scrim');
-    scrim.innerText = "Jay's Confections"
+
+    //Add Component Here
+
     content.appendChild(scrim);
 
     return content;
 }
 
+
+document.body.appendChild(Header);
 document.body.appendChild(content());
 
 
