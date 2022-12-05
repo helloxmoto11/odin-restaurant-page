@@ -18,8 +18,10 @@ function header() {
     const buttonContainer = document.createElement("div");
     buttonContainer.classList.add("button-container");
     buttonContainer.appendChild(headerButton("Home"))
+    buttonContainer.appendChild(headerButton("Menu"))
+    buttonContainer.appendChild(headerButton("Contact"))
 
-    header.appendChild(headerButton("Home"));
+    header.appendChild(buttonContainer);
 
     return header;
 }

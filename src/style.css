@@ -45,6 +45,11 @@ body {
     margin: 15px;
 }
 
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
 .header-button {
     background-color: transparent;
     color: white;
