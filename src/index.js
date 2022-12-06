@@ -1,16 +1,21 @@
 import './style.css';
 import Header from './header.js';
+import Home from './home';
 
 function content() {
 
-    const mainContainer = document.createElement("div");
-    mainContainer.classList.add("main-container");
+    const mainContainer = Home;
 
-    return mainContainer;
+    const background = document.createElement("div");
+    background.classList.add("background");
+    background.appendChild(Header);
+    background.appendChild(mainContainer);
+    document.body.appendChild(background);
+
+    return background;
 }
 
 
-document.body.appendChild(Header);
 document.body.appendChild(content());
 
 

@@ -5,6 +5,10 @@ function headerButton(name) {
     button.classList.add("header-button");
     button.innerText = name;
 
+    button.addEventListener('click', (e) => {
+        console.log(name);
+    });
+
     return button;
 }
 
