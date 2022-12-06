@@ -3,19 +3,10 @@ import Header from './header.js';
 
 function content() {
 
-    const content = document.createElement('div');
-    content.classList.add('content')
+    const mainContainer = document.createElement("div");
+    mainContainer.classList.add("main-container");
 
-    content.classList.add('content')
-
-    const scrim = document.createElement('div');
-    scrim.classList.add('scrim');
-
-    //Add Component Here
-
-    content.appendChild(scrim);
-
-    return content;
+    return mainContainer;
 }
 
 

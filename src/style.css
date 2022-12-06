@@ -21,18 +21,6 @@ body {
     color: white;
 }
 
-.content {
-    background: url("background-img-jays-confections.jpg");
-    background-size: cover;
-    height: 80%;
-    width: 70%;
-}
-
-.scrim {
-    background-color: rgba(58, 56, 56, 0.53);
-    height: 100%;
-}
-
 .header {
     display: flex;
     flex-direction: column;
@@ -61,6 +49,14 @@ body {
     border-radius: 5px 5px 0 0;
     font-size: 1.5rem;
     font-family: DancingScript, serif;
+}
+
+.main-container {
+    height: 70%;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #4c3521;
 }
 
 
